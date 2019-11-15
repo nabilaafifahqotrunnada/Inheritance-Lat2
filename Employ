@@ -1,0 +1,14 @@
+package lat2;
+
+/**
+ *
+ * @author nabila
+ */
+public class Employ extends Person {
+    private String noKaryawan;
+    public Employ(String nama, int usia, String noKaryawan) {
+        super(nama, usia);
+        this.noKaryawan = noKaryawan;
+    }
+}
+
